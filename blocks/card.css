@@ -1,0 +1,40 @@
+.card {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 33%;
+}
+
+.card__title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 0 0 32px 0;
+  margin: 0;
+}
+
+.card__list {
+  display: flex;
+  list-style-type: none;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.card__list-divider {
+  border-bottom: solid 1px #ffffff;
+  flex-grow: 1;
+}
+
+.card__list-item {
+  font-family: 'Noto Serif', 'Times New Roman', serif;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 16px 0 0 0;
+}
+
+.card__list-item:nth-child(1) {
+  padding-top: 0;
+}
